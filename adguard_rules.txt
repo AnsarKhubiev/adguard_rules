@@ -1,0 +1,374 @@
+!3dnews.ru
+!куки
+3dnews.ru###cookieConsent
+!слайдер
+3dnews.ru###sliderTrack
+
+!calendar.google.com
+calendar.google.com##div[role="progressbar"]
+
+decathlon.com.tr###didomi-notice
+
+feedly.com###feedlyStaticProgressBar
+
+!flashscore
+flashscore.com##div[id*="onetrust"]
+flashscore.com##div.otPlaceholder
+flashscore.com##div[class*='sportNews']
+
+! убирает пробелы между блоками
+flashscore.com##div.sportName:style( margin-bottom: 0 !important; padding: 0 !important)
+flashscore.com##div.event__match:style(margin-bottom:0 !important)
+
+
+!fotmob
+! прогресс бар
+fotmob.com##div#nprogress
+! раздел с новостями 
+fotmob.com##section[class*="ContentOfTheDay"] > div > div:nth-of-type(-n+2)
+
+kinorium.com##.topMenu__progress-bar__section
+
+!kino.pub
+kino.pub##.desktop-center-controls
+kino.pub##.spinner-icon
+
+!kinopoisk
+kinopoisk.ru##span#trailer-promo-block + div
+kinopoisk.ru##span#streaming-promo-block + div
+kinopoisk.ru##span#editors-choice-block + div
+kinopoisk.ru##span#today-in-cinema-block + div
+kinopoisk.ru##span#today-in-cinema-block + div + div
+kinopoisk.ru##div[class*="progress"]
+kinopoisk.ru##div[class*="geotag"]
+kinopoisk.ru##div[class*="plusBadgeCounter"]
+
+!kinorium
+kinorium.com##div.simpsons_switcher
+! строка "Скрыть всю рекламу в Кинориуме"
+kinorium.com##div[class*="proBan"]
+
+!livelib.ru
+livelib.ru###cookies-agree
+livelib.ru##div[class *="CookieBanner"]
+!Прогресс бар
+livelib.ru###nprogress
+
+speedtest.net###onetrust-banner-sdk
+
+!rutracker.org
+! бесячая аватарка
+||static.rutracker.cc/avatars/2/46/12454746.jpg
+
+! ign.com
+! progress bar
+ign.com##div.loading-bar
+! не знаю, что блокирует
+ign.com###onetrust-banner-sdk
+ign.com###onetrust-consent-sdk > div.onetrust-pc-dark-filter.ot-fade-in:first-child
+
+!ozon.ru
+!Блокировка виджета кредитной карты
+ozon.ru##div[data-widget="webInstallmentPurchase"]
+! Баннер с куками
+ozon.ru##div[data-widget="cookieBubble"]
+
+!MyHeritage
+myheritage.com##div#cookie_preferences_banner_root
+ 
+! sports.ru
+! футбол новости - фильтр по тексту
+sports.ru##:is(article, div.short-news > p):has-text(Журов)
+sports.ru##:is(article, div.short-news > p):has-text(Быстров)
+sports.ru##:is(article, div.short-news > p):has-text(партак)
+sports.ru##:is(article, div.short-news > p):has-text(ЦСКА)
+sports.ru##:is(article, div.short-news > p):has-text(Зенит)
+sports.ru##:is(article, div.short-news > p):has-text(Мостово)
+sports.ru##:is(article, div.short-news > p):has-text(Динамо)
+sports.ru##:is(article, div.short-news > p):has-text(Гасилин)
+sports.ru##:is(article, div.short-news > p):has-text(Губерниев)
+sports.ru##:is(article, div.short-news > p):has-text(Аршавин)
+sports.ru##:is(article, div.short-news > p):has-text(Захарян)
+sports.ru##:is(article, div.short-news > p):has-text(Головин)
+sports.ru##:is(article, div.short-news > p):has-text(Овечк)
+sports.ru##:is(article, div.short-news > p):has-text(РФС)
+sports.ru##:is(article, div.short-news > p):has-text(Оренбур)
+sports.ru##:is(article, div.short-news > p):has-text(Пари НН)
+sports.ru##:is(article, div.short-news > p):has-text(Краснодар)
+sports.ru##:is(article, div.short-news > p):has-text(Чемпионат Саудовской Аравии)
+sports.ru##:is(article, div.short-news > p):has-text(Осинькин)
+sports.ru##:is(article, div.short-news > p):has-text(Булыкин)
+sports.ru##:is(article, div.short-news > p):has-text(Игнашевич)
+sports.ru##:is(article, div.short-news > p):has-text(Логашов)
+sports.ru##:is(article, div.short-news > p):has-text(Писарев)
+sports.ru##:is(article, div.short-news > p):has-text(Кавазашвили)
+sports.ru##:is(article, div.short-news > p):has-text(Роднин)
+sports.ru##:is(article, div.short-news > p):has-text(Семин)
+sports.ru##:is(article, div.short-news > p):has-text(Талалаев) 
+sports.ru##:is(article, div.short-news > p):has-text(Балтик)
+sports.ru##:is(article, div.short-news > p):has-text(Ротенберг)
+sports.ru##:is(article, div.short-news > p):has-text(Тукман)
+sports.ru##:is(article, div.short-news > p):has-text(Дасаев)
+sports.ru##:is(article, div.short-news > p):has-text(букмекер)
+sports.ru##:is(article, div.short-news > p):has-text(Черчесов)
+sports.ru##:is(article, div.short-news > p):has-text(Заварзин)
+sports.ru##:is(article, div.short-news > p):has-text(Зобнин)
+sports.ru##:is(article, div.short-news > p):has-text(Ледяхов)
+sports.ru##:is(article, div.short-news > p):has-text(Байдачн)
+sports.ru##:is(article, div.short-news > p):has-text(Черданц)
+sports.ru##:is(article, div.short-news > p):has-text(Генич)
+sports.ru##:is(article, div.short-news > p):has-text(Пономар)
+sports.ru##:is(article, div.short-news > p):has-text(Росси)
+sports.ru##:is(article, div.short-news > p):has-text(Песьяк)
+sports.ru##:is(article, div.short-news > p):has-text(Акинфее)
+sports.ru##:is(article, div.short-news > p):has-text(Кисляк)
+sports.ru##:is(article, div.short-news > p):has-text(русск)
+sports.ru##:is(article, div.short-news > p):has-text(Рубин)
+sports.ru##:is(article, div.short-news > p):has-text(Ахмат)
+sports.ru##:is(article, div.short-news > p):has-text(Трамп)
+sports.ru##:is(article, div.short-news > p):has-text(советск)
+sports.ru##:is(article, div.short-news > p):has-text(Крыль)
+sports.ru##:is(article, div.short-news > p):has-text(Тихий)
+sports.ru##:is(article, div.short-news > p):has-text(Ротор)
+sports.ru##:is(article, div.short-news > p):has-text(Москв)
+sports.ru##:is(article, div.short-news > p):has-text(Локо)
+sports.ru##:is(article, div.short-news > p):has-text(Спортс)
+sports.ru##:is(article, div.short-news > p):has-text(Свищев)
+sports.ru##:is(article, div.short-news > p):has-text(Бабаев)
+sports.ru##:is(article, div.short-news > p):has-text(Дивеев)
+sports.ru##:is(article, div.short-news > p):has-text(Ростов)
+sports.ru##:is(article, div.short-news > p):has-text(РПЛ)
+sports.ru##:is(article, div.short-news > p):has-text(россиян)
+sports.ru##:is(article, div.short-news > p):has-text(РЖД)
+sports.ru##:is(article, div.short-news > p):has-text(Путин)
+sports.ru##:is(article, div.short-news > p):has-text(Филин)
+sports.ru##:is(article, div.short-news > p):has-text(Сафонов)
+sports.ru##:is(article, div.short-news > p):has-text(Сочи)
+sports.ru##:is(article, div.short-news > p):has-text(Тульск)
+sports.ru##:is(article, div.short-news > p):has-text(Дзюб)
+sports.ru##:is(article, div.short-news > p):has-text(Слуцк)
+sports.ru##:is(article, div.short-news > p):has-text(Тикнизян)
+sports.ru##:is(article, div.short-news > p):has-text(Амкал)
+sports.ru##:is(article, div.short-news > p):has-text(Гашек)
+sports.ru##:is(article, div.short-news > p):has-text(Медиалиг)
+sports.ru##:is(article, div.short-news > p):has-text(Юран)
+sports.ru##:is(article, div.short-news > p):has-text(Павлючен)
+sports.ru##:is(article, div.short-news > p):has-text(Самедо)
+sports.ru##:is(article, div.short-news > p):has-text(Галактионо)
+sports.ru##:is(article, div.short-news > p):has-text(Тюкавин)
+sports.ru##:is(article, div.short-news > p):has-text(Глушаков)
+sports.ru##:is(article, div.short-news > p):has-text(СКА)
+sports.ru##:is(article, div.short-news > p):has-text(Онопко)
+sports.ru##:is(article, div.short-news > p):has-text(фигурк)
+sports.ru##:is(article, div.short-news > p):has-text(Батрак)
+sports.ru##:is(article, div.short-news > p):has-text(Попов)
+sports.ru##:is(article, div.short-news > p):has-text(Милонов)
+sports.ru##:is(article, div.short-news > p):has-text(Смолов)
+sports.ru##:is(article, div.short-news > p):has-text(Химки)
+sports.ru##:is(article, div.short-news > p):has-text(Миранчук)
+sports.ru##:is(article, div.short-news > p):has-text(Черномор)
+sports.ru##:is(article, div.short-news > p):has-text(Дегтярев)
+sports.ru##:is(article, div.short-news > p):has-text(Химк)
+sports.ru##:is(article, div.short-news > p):has-text(Енисе)
+sports.ru##:is(article, div.short-news > p):has-text(Тихонов)
+sports.ru##:is(article, div.short-news > p):has-text(Васильев)
+sports.ru##:is(article, div.short-news > p):has-text(Газпром)
+sports.ru##:is(article, div.short-news > p):has-text(Петербург)
+sports.ru##:is(article, div.short-news > p):has-text(Макаров)
+sports.ru##:is(article, div.short-news > p):has-text(Клещен)
+sports.ru##:is(article, div.short-news > p):has-text(едиалиг)
+sports.ru##:is(article, div.short-news > p):has-text(КХЛ)
+sports.ru##:is(article, div.short-news > p):has-text(Кержаков)
+sports.ru##:is(article, div.short-news > p):has-text(Жирков)
+sports.ru##:is(article, div.short-news > p):has-text(Гаджиев)
+sports.ru##:is(article, div.short-news > p):has-text(Титов)
+sports.ru##:is(article, div.short-news > p):has-text(Чалов)
+sports.ru##:is(article, div.short-news > p):has-text(СССР)
+sports.ru##:is(article, div.short-news > p):has-text(Бузов)
+sports.ru##:is(article, div.short-news > p):has-text(Тарасов)
+sports.ru##:is(article, div.short-news > p):has-text(Черышев)
+sports.ru##:is(article, div.short-news > p):has-text(Савин)
+sports.ru##:is(article, div.short-news > p):has-text(Бельск)
+sports.ru##:is(article, div.short-news > p):has-text(Семак)
+sports.ru##:is(article, div.short-news > p):has-text(епутат)
+sports.ru##:is(article, div.short-news > p):has-text(Колыванов)
+sports.ru##:is(article, div.short-news > p):has-text(Бубнов)
+sports.ru##:is(article, div.short-news > p):has-text(МФЛ)
+sports.ru##:is(article, div.short-news > p):has-text(ольятти)
+sports.ru##:is(article, div.short-news > p):has-text(Радимов)
+sports.ru##:is(article, div.short-news > p):has-text(Тарханов)
+sports.ru##:is(article, div.short-news > p):has-text(Романцев)
+sports.ru##:is(article, div.short-news > p):has-text(осдум)
+sports.ru##:is(article, div.short-news > p):has-text(НаПике)
+sports.ru##:is(article, div.short-news > p):has-text(Баженов)
+sports.ru##:is(article, div.short-news > p):has-text(Бадаев)
+sports.ru##:is(article, div.short-news > p):has-text(Сульянов)
+sports.ru##:is(article, div.short-news > p):has-text(Матч ТВ)
+sports.ru##:is(article, div.short-news > p):has-text(Березуцк)
+sports.ru##:is(article, div.short-news > p):has-text(Шинник)
+sports.ru##:is(article, div.short-news > p):has-text(Глушаков)
+sports.ru##:is(article, div.short-news > p):has-text(Соболев)
+sports.ru##:is(article, div.short-news > p):has-text(Мусаев)
+sports.ru##:is(article, div.short-news > p):has-text(Журавель)
+sports.ru##:is(article, div.short-news > p):has-text(Сенников)
+sports.ru##:is(article, div.short-news > p):has-text(Песков)
+sports.ru##:is(article, div.short-news > p):has-text(Лавров)
+sports.ru##:is(article, div.short-news > p):has-text(Медведев)
+sports.ru##:is(article, div.short-news > p):has-text(Колобков)
+sports.ru##:is(article, div.short-news > p):has-text(Харитонов)
+sports.ru##:is(article, div.short-news > p):has-text(Шлеменко)
+sports.ru##:is(article, div.short-news > p):has-text(Караваев)
+sports.ru##:is(article, div.short-news > p):has-text(ещенко)
+sports.ru##:is(article, div.short-news > p):has-text(Орлов)
+sports.ru##:is(article, div.short-news > p):has-text(Глушенков)
+sports.ru##:is(article, div.short-news > p):has-text(Селюк)
+sports.ru##:is(article, div.short-news > p):has-text(Торпедо)
+sports.ru##:is(article, div.short-news > p):has-text(Филимонов)
+sports.ru##:is(article, div.short-news > p):has-text(Авербух)
+sports.ru##:is(article, div.short-news > p):has-text(едиафутбол)
+sports.ru##:is(article, div.short-news > p):has-text(Евсеев)
+sports.ru##:is(article, div.short-news > p):has-text(Лига чемпионов Азии)
+sports.ru##:is(article, div.short-news > p):has-text(Лига PARI)
+sports.ru##:is(article, div.short-news > p):has-text(IShowSpeed)
+sports.ru##:is(article, div.short-news > p):has-text(Мусагалие)
+sports.ru##:is(article, div.short-news > p):has-text(Лапочкин)
+sports.ru##:is(article, div.short-news > p):has-text(Денисов)
+sports.ru##:is(article, div.short-news > p):has-text(Боков)
+sports.ru##:is(article, div.short-news > p):has-text(Ташуев)
+sports.ru##:is(article, div.short-news > p):has-text(Федорищев)
+sports.ru##:is(article, div.short-news > p):has-text(Адиев)
+sports.ru##:is(article, div.short-news > p):has-text(Разин)
+sports.ru##:is(article, div.short-news > p):has-text(Трибун)
+sports.ru##:is(article, div.short-news > p):has-text(Аль-Наср)
+sports.ru##:is(article, div.short-news > p):has-text(Аль-Хилаль)
+sports.ru##:is(article, div.short-news > p):has-text(Заболотн)
+sports.ru##:is(article, div.short-news > p):has-text(Акрон)
+sports.ru##:is(article, div.short-news > p):has-text(Кокорин)
+sports.ru##:is(article, div.short-news > p):has-text(Гинер)
+sports.ru##:is(article, div.short-news > p):has-text(Бакалюк)
+sports.ru##:is(article, div.short-news > p):has-text(Григорян)
+sports.ru##:is(article, div.short-news > p):has-text(КДК)
+sports.ru##:is(article, div.short-news > p):has-text(Сталин)
+sports.ru##:is(article, div.short-news > p):has-text(Скопинцев)
+sports.ru##:is(article, div.short-news > p):has-text(Федотов)
+sports.ru##:is(article, div.short-news > p):has-text(Обляков)
+sports.ru##:is(article, div.short-news > p):has-text(Худяков)
+sports.ru##:is(article, div.short-news > p):has-text(Лига Европы.)
+sports.ru##:is(article, div.short-news > p):has-text(Лига конференций.)
+sports.ru##:is(article, div.short-news > p):has-text(Анюков)
+sports.ru##:is(article, div.short-news > p):has-text(Сергеев)
+sports.ru##:is(article, div.short-news > p):has-text(Аль-Шабаб)
+sports.ru##:is(article, div.short-news > p):has-text(Саудовской Аравии)
+sports.ru##:is(article, div.short-news > p):has-text(Лактионов)
+sports.ru##:is(article, div.short-news > p):has-text(Тамаев)
+sports.ru##:is(article, div.short-news > p):has-text(Заботкин)
+sports.ru##:is(article, div.short-news > p):has-text(Волны)
+sports.ru##:is(article, div.short-news > p):has-text(Факел)
+sports.ru##:is(article, div.short-news > p):has-text(Василенко)
+sports.ru##:is(article, div.short-news > p):has-text(Алаев)
+sports.ru##:is(article, div.short-news > p):has-text(Ак Барс)
+sports.ru##:is(article, div.short-news > p):has-text(Ерохин)
+sports.ru##:is(article, div.short-news > p):has-text(Сперцян)
+sports.ru##:is(article, div.short-news > p):has-text(Карпин)
+sports.ru##:is(article, div.short-news > p):has-text(Заходите в Игровую)
+sports.ru##:is(article, div.short-news > p):has-text(Шалимов)
+sports.ru##:is(article, div.short-news > p):has-text(Кубан)
+sports.ru##:is(article, div.short-news > p):has-text(Канчельс)
+sports.ru##:is(article, div.short-news > p):has-text(Урал)
+sports.ru##:is(article, div.short-news > p):has-text(Вахани)
+sports.ru##:is(article, div.short-news > p):has-text(Мажич)
+sports.ru##:is(article, div.short-news > p):has-text(Кирьяков)
+sports.ru##:is(article, div.short-news > p):has-text(Нефтехимик)
+sports.ru##:is(article, div.short-news > p):has-text(Чанов)
+sports.ru##:is(article, div.short-news > p):has-text(Максименк)
+sports.ru##:is(article, div.short-news > p):has-text(Сычев)
+sports.ru##:is(article, div.short-news > p):has-text(Мостов)
+sports.ru##:is(article, div.short-news > p):has-text(Сибир)
+sports.ru##:is(article, div.short-news > p):has-text(Гурцк)
+sports.ru##:is(article, div.short-news > p):has-text(2Drots)
+sports.ru##:is(article, div.short-news > p):has-text(Кудряшов)
+sports.ru##:is(article, div.short-news > p):has-text(Коршунов)
+sports.ru##:is(article, div.short-news > p):has-text(Хабаровск)
+sports.ru##:is(article, div.short-news > p):has-text(Смертин)
+sports.ru##:is(article, div.short-news > p):has-text(Мамаев)
+sports.ru##:is(article, div.short-news > p):has-text(Минин)
+sports.ru##:is(article, div.short-news > p):has-text(Захаров)
+sports.ru##:is(article, div.short-news > p):has-text(PARI)
+sports.ru##:is(article, div.short-news > p):has-text(Ловчев)
+sports.ru##:is(article, div.short-news > p):has-text(Ткаченко)
+sports.ru##:is(article, div.short-news > p):has-text(Пермь)
+sports.ru##:is(article, div.short-news > p):has-text(Мэддисон)
+sports.ru##:is(article, div.short-news > p):has-text(Родин)
+sports.ru##:is(article, div.short-news > p):has-text(Калинин)
+sports.ru##:is(article, div.short-news > p):has-text(Ребров)
+sports.ru##:is(article, div.short-news > p):has-text(Малыхин)
+sports.ru##:is(article, div.short-news > p):has-text(Зырянов)
+sports.ru##:is(article, div.short-news > p):has-text(Кузнецов)
+sports.ru##:is(article, div.short-news > p):has-text(Хабиб)
+sports.ru##:is(article, div.short-news > p):has-text(Pop MMA)
+sports.ru##:is(article, div.short-news > p):has-text(Крикунов)
+sports.ru##:is(article, div.short-news > p):has-text(Гришин)
+sports.ru##:is(article, div.short-news > p):has-text(Колесников)
+sports.ru##:is(article, div.short-news > p):has-text(Аленичев)
+sports.ru##:is(article, div.short-news > p):has-text(Дюков)
+sports.ru##:is(article, div.short-news > p):has-text(Дюков)
+sports.ru##:is(article, div.short-news > p):has-text(Дюков)
+sports.ru##:is(article, div.short-news > p):has-text(Дюков)
+
+! фильтр рекламы
+sports.ru##div.nl-item:has(.tests-games)
+sports.ru##div.short-news > p:has(.special)
+sports.ru##div.short-news > p:has(.tests-games)
+sports.ru##div.short-news > p:has(.advert_material)
+sports.ru##div.short-news > p:has(.promo)
+sports.ru##div.short-news > p:has(.career)
+sports.ru##div.short-news > p:has(.prediction)
+
+! фильтр рекламы (mobile)
+sports.ru##article:has-text(Тесты и игры)
+sports.ru##article:has-text(Спецпроект)
+sports.ru##article:has-text(Реклама)
+sports.ru##article:has-text(Вакансия)
+sports.ru##article:has-text(Промо)
+sports.ru##article:has-text(Прогноз)
+
+! блокировка счетчика комментов с иконкой
+sports.ru##[class*="comment-count"]
+sports.ru##a:has[title="Комментарии к новости"]
+sports.ru##p a.short-text ~ *
+
+! блокировка счетчика комментов с иконкой (mobile)
+m.sports.ru##[class*="comment-count"]
+
+!блокировка live новостей и новостей об онлайн-трансляции
+sports.ru##p:has(span[class="live"])
+sports.ru##p:has(span[class="cyber_sport"])
+sports.ru##p:has(span[class="fantasy"])
+
+!блокировка live новостей и новостей об онлайн-трансляции (mobile)
+m.sports.ru##article[data-type="live"]
+m.sports.ru##article[data-type="cyber_sport"]
+m.sports.ru##article[data-type="fantasy"]
+
+!блокировка нижней панели (mobile)
+m.sports.ru##nav.navigation-navbar-mobile
+
+! баннер о блокировщике рекламы 
+sports.ru##div:has-text(блокировщика рекламы)
+example.com##div:has(> div > div > div:empty)
+
+! пустая секция справа
+sports.ru##div.rightPart
+
+! не помню, что блокирует
+sports.ru##.feed-page__popular
+
+
+! youtube.com
+
+youtube.com##yt-page-navigation-progress
+youtube.com###movie_player > div.ytp-doubletap-ui-legacy
+youtube.com##.ytp-seek-overlay
+
+!блокировка секции с отобранными видео в подписках
+youtube.com/feed/subscriptions##ytd-rich-section-renderer
