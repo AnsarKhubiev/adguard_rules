@@ -1,83 +1,23 @@
-!3dnews.ru
-!куки
-3dnews.ru###cookieConsent
-!слайдер
-3dnews.ru###sliderTrack
-
-!calendar.google.com
-calendar.google.com##div[role="progressbar"]
-
-decathlon.com.tr###didomi-notice
-
-feedly.com###feedlyStaticProgressBar
-
-!flashscore
-flashscore.com##div[id*="onetrust"]
-flashscore.com##div.otPlaceholder
-flashscore.com##div[class*='sportNews']
-
-! убирает пробелы между блоками
-flashscore.com##div.sportName:style( margin-bottom: 0 !important; padding: 0 !important)
-flashscore.com##div.event__match:style(margin-bottom:0 !important)
-
-
-!fotmob
-! прогресс бар
-fotmob.com##div#nprogress
-! раздел с новостями 
-fotmob.com##section[class*="ContentOfTheDay"] > div > div:nth-of-type(-n+2)
-
-kinorium.com##.topMenu__progress-bar__section
-
-!kino.pub
-kino.pub##.desktop-center-controls
-kino.pub##.spinner-icon
-
-!kinopoisk
-kinopoisk.ru##span#trailer-promo-block + div
-kinopoisk.ru##span#streaming-promo-block + div
-kinopoisk.ru##span#editors-choice-block + div
-kinopoisk.ru##span#today-in-cinema-block + div
-kinopoisk.ru##span#today-in-cinema-block + div + div
-kinopoisk.ru##div[class*="progress"]
-kinopoisk.ru##div[class*="geotag"]
-kinopoisk.ru##div[class*="plusBadgeCounter"]
-
-!kinorium
-kinorium.com##div.simpsons_switcher
-! строка "Скрыть всю рекламу в Кинориуме"
-kinorium.com##div[class*="proBan"]
-
-!livelib.ru
-livelib.ru###cookies-agree
-livelib.ru##div[class *="CookieBanner"]
-!Прогресс бар
-livelib.ru###nprogress
-
-speedtest.net###onetrust-banner-sdk
-
-!rutracker.org
-! бесячая аватарка
-||static.rutracker.cc/avatars/2/46/12454746.jpg
-
-! ign.com
-! progress bar
-ign.com##div.loading-bar
-! не знаю, что блокирует
-ign.com###onetrust-banner-sdk
-ign.com###onetrust-consent-sdk > div.onetrust-pc-dark-filter.ot-fade-in:first-child
-
-!ozon.ru
-!Блокировка виджета кредитной карты
-ozon.ru##div[data-widget="webInstallmentPurchase"]
-! Баннер с куками
-ozon.ru##div[data-widget="cookieBubble"]
-
-!MyHeritage
-myheritage.com##div#cookie_preferences_banner_root
- 
 ! sports.ru
 ! футбол новости - фильтр по тексту
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
 sports.ru##:is(article, div.short-news > p):has-text(Журов)
 sports.ru##:is(article, div.short-news > p):has-text(Быстров)
 sports.ru##:is(article, div.short-news > p):has-text(партак)
@@ -314,24 +254,6 @@ sports.ru##:is(article, div.short-news > p):has-text(Дюков)
 sports.ru##:is(article, div.short-news > p):has-text(Новосельцев)
 sports.ru##:is(article, div.short-news > p):has-text(Левников)
 sports.ru##:is(article, div.short-news > p):has-text(Лещук)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
-sports.ru##:is(article, div.short-news > p):has-text(temp)
 
 ! фильтр рекламы
 sports.ru##div.nl-item:has(.tests-games)
@@ -381,6 +303,87 @@ sports.ru##div.rightPart
 ! не помню, что блокирует
 sports.ru##.feed-page__popular
 
+
+
+!3dnews.ru
+!куки
+3dnews.ru###cookieConsent
+!слайдер
+3dnews.ru###sliderTrack
+
+!calendar.google.com
+calendar.google.com##div[role="progressbar"]
+
+decathlon.com.tr###didomi-notice
+
+feedly.com###feedlyStaticProgressBar
+
+!flashscore
+flashscore.com##div[id*="onetrust"]
+flashscore.com##div.otPlaceholder
+flashscore.com##div[class*='sportNews']
+
+! убирает пробелы между блоками
+flashscore.com##div.sportName:style( margin-bottom: 0 !important; padding: 0 !important)
+flashscore.com##div.event__match:style(margin-bottom:0 !important)
+
+
+!fotmob
+! прогресс бар
+fotmob.com##div#nprogress
+! раздел с новостями 
+fotmob.com##section[class*="ContentOfTheDay"] > div > div:nth-of-type(-n+2)
+
+kinorium.com##.topMenu__progress-bar__section
+
+!kino.pub
+kino.pub##.desktop-center-controls
+kino.pub##.spinner-icon
+
+!kinopoisk
+kinopoisk.ru##span#trailer-promo-block + div
+kinopoisk.ru##span#streaming-promo-block + div
+kinopoisk.ru##span#editors-choice-block + div
+kinopoisk.ru##span#today-in-cinema-block + div
+kinopoisk.ru##span#today-in-cinema-block + div + div
+kinopoisk.ru##div[class*="progress"]
+kinopoisk.ru##div[class*="geotag"]
+kinopoisk.ru##div[class*="plusBadgeCounter"]
+
+!kinorium
+kinorium.com##div.simpsons_switcher
+! строка "Скрыть всю рекламу в Кинориуме"
+kinorium.com##div[class*="proBan"]
+! полоса "Буду смотреть"
+kinorium.com##div.thermometer
+
+!livelib.ru
+livelib.ru###cookies-agree
+livelib.ru##div[class *="CookieBanner"]
+!Прогресс бар
+livelib.ru###nprogress
+
+speedtest.net###onetrust-banner-sdk
+
+!rutracker.org
+! бесячая аватарка
+||static.rutracker.cc/avatars/2/46/12454746.jpg
+
+! ign.com
+! progress bar
+ign.com##div.loading-bar
+! не знаю, что блокирует
+ign.com###onetrust-banner-sdk
+ign.com###onetrust-consent-sdk > div.onetrust-pc-dark-filter.ot-fade-in:first-child
+
+!ozon.ru
+!Блокировка виджета кредитной карты
+ozon.ru##div[data-widget="webInstallmentPurchase"]
+! Баннер с куками
+ozon.ru##div[data-widget="cookieBubble"]
+
+!MyHeritage
+myheritage.com##div#cookie_preferences_banner_root
 
 ! youtube.com
 
