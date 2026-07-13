@@ -1,5 +1,6 @@
 ! sports.ru
 ! футбол новости - фильтр по тексту
+sports.ru##:is(article, div.short-news > p):has-text(Фетисов)
 sports.ru##:is(article, div.short-news > p):has-text(Бублик)
 sports.ru##:is(article, div.short-news > p):has-text(Кругов)
 sports.ru##:is(article, div.short-news > p):has-text(Пиняев)
