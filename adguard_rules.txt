@@ -1,6 +1,16 @@
 ! sports.ru
 ! футбол новости - фильтр по тексту
 sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(temp)
+sports.ru##:is(article, div.short-news > p):has-text(Спорт Сегодня)
 sports.ru##:is(article, div.short-news > p):has-text(Командн)
 sports.ru##:is(article, div.short-news > p):has-text(Сильянов)
 sports.ru##:is(article, div.short-news > p):has-text(Казарцев)
