@@ -350,7 +350,10 @@ fotmob.com##div#nprogress
 fotmob.com##section[class*="ContentOfTheDay"] > div > div:nth-of-type(-n+2)
 
 !jac.red
-jac.red##header.space-y-1 text-center
+!убирает отступ секции
+jac.red###main-content:style(padding-top: 0 !important;)
+!убирает исчезающую при скроллинге секцию
+jac.red##*[class*="space-y-1 text-center"]
 
 kinorium.com##.topMenu__progress-bar__section
 
