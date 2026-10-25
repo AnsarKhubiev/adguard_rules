@@ -349,6 +349,9 @@ fotmob.com##div#nprogress
 ! раздел с новостями 
 fotmob.com##section[class*="ContentOfTheDay"] > div > div:nth-of-type(-n+2)
 
+!jac.red
+jac.red##header.space-y-1 text-center
+
 kinorium.com##.topMenu__progress-bar__section
 
 !kino.pub
