@@ -388,9 +388,16 @@ livelib.ru###nprogress
 !блок с комментариями
 livetv.sx###comblockabs, #comblockabswp
 !секции с букмейкерами, новостями и пр.
-livetv.sx##table:nth-child(4) > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:last-child > table.main:nth-child(5) > tbody > tr > td > table > tbody > tr:last-child > td > table > tbody > tr > td:last-child
-livetv.sx##table:nth-child(4) > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(5)
-livetv.sx##table:nth-child(4) > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(2)
+livetv.sx##table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(2)
+livetv.sx##table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(4)
+
+!секции в мобильной версии с новым дизайном
+m.livetv.sx##section:has(h2#sp-social-title)
+m.livetv.sx##article.sp-article
+m.livetv.sx##div.sp-note
+m.livetv.sx##div.sp-help
+m.livetv.sx##div.sp-mpu
+m.livetv.sx##nav.m-card
 
 speedtest.net###onetrust-banner-sdk
 
