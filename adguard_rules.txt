@@ -384,6 +384,10 @@ livelib.ru##div[class *="CookieBanner"]
 !Прогресс бар
 livelib.ru###nprogress
 
+!livetv.sx
+!блок с комментариями
+livetv.sx###comblockabs
+
 speedtest.net###onetrust-banner-sdk
 
 !rutracker.org
