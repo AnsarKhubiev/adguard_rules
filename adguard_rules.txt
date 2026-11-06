@@ -386,7 +386,7 @@ livelib.ru###nprogress
 
 !livetv.sx
 !блок с комментариями
-livetv.sx###comblockabs
+livetv.sx###comblockabs, #comblockabswp
 
 speedtest.net###onetrust-banner-sdk
 
